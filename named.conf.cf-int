@@ -1,0 +1,5 @@
+//COND FORWARD TO thefathacker ns
+
+type		forward;
+forward		only;
+forwarders	{	include	"/etc/bind/named.conf.cf-int.targets";	};
