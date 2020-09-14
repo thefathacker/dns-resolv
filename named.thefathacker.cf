@@ -2,4 +2,4 @@
 
 type		forward;
 forward		only;
-forwarders	include	"/opt/named/named.thefathacker.cf.targets";
+forwarders	include	"/etc/bind/named.thefathacker.cf.targets";
