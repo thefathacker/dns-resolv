@@ -2,15 +2,17 @@ options	{
 	directory	"/var/cache/bind";
 
 	forwarders	{
-		1.1.1.1;
-		1.0.0.1;
+		1.1.1.1;				//CloudFlare DNS IPv4 - Primary - one.one.one.one
+		2606:4700:4700::1111;	//CloudFlare DNS IPv6 - Primary - one.one.one.one
+		1.0.0.1;				//CloudFlare DNS IPv4 - Secondary - one.one.one.one
+		2606:4700:4700::1001;	//CloudFlare DNS IPv6 - Secondary - one.one.one.one
 	};
 
 	dnssec-validation	no;
 
-	listen-on	{	any;	};
+	listen-on		{	any;	};
 	listen-on-v6	{	any;	};
-	allow-query	{	any;	};
+	allow-query		{	any;	};
 
 	max-cache-size	0;
 };
