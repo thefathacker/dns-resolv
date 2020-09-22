@@ -13,6 +13,7 @@ options	{
 	listen-on		{	any;	};
 	listen-on-v6	{	any;	};
 	allow-query		{	any;	};
+	recursion		yes;
 
 	max-cache-size	0;
 };
