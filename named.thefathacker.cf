@@ -1,7 +1,7 @@
 //COND FORWARD TO thefathacker ns
 
 type		forward;
-forward		only;
+forward		first;
 forwarders	{
 	172.31.16.2;			//IPV4 - ns-apv-1.thefathacker.tech
 	fdff:6861:7873:1f10::2;	//IPV6 - ns-apv-1.thefathacker.tech
