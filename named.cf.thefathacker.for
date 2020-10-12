@@ -3,8 +3,8 @@
 type		forward;
 forward		first;
 forwarders	{
-	172.31.16.2;			//IPV4 - ns-apv-1.thefathacker.tech
-	fdff:6861:7873:1f10::2;	//IPV6 - ns-apv-1.thefathacker.tech
-	172.31.17.2;			//IPV4 - ns-apv-2.thefathacker.tech
-	fdff:6861:7873:1f11::2;	//IPV6 - ns-apv-2.thefathacker.tech
+	10.41.32.2;				//IPV4 - ns-apv-1.thefathacker.tech
+	2001:44b8:2148:2920::2;	//IPV6 - ns-apv-1.thefathacker.tech
+	10.41.33.2;				//IPV4 - ns-apv-2.thefathacker.tech
+	2001:44b8:2148:2921::2;	//IPV6 - ns-apv-2.thefathacker.tech
 };
